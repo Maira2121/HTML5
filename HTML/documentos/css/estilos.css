@@ -1,0 +1,102 @@
+nav{
+    text-align: center;
+    background: #232120;
+    border-color: dimgrey;
+    padding: 0.8em;
+    font-family: "Candara Light", serif;
+    font-size: 15px;
+}
+.fotoCuadrada{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+    background-size: 100% auto;
+    box-shadow: 0 0 15px #ffffff;
+    ;
+}
+.imagenredonda{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    border-radius: 50%;
+    background-size: 100% auto;
+;
+}
+li{
+    display: inline;
+    padding-right: 0.8em;
+}
+.enlacesLetraBlanca{
+    color: white;
+    text-decoration: none
+}
+header{
+    text-align: center;
+    padding: 8em;
+    background:url(../img/Fondo.jpeg);
+    font-family: "Candara Light", serif;
+}
+body{
+    margin: 0;
+    background: white;
+
+}
+h1{
+    color: white;
+    margin: 0;
+}
+.pEspecial{
+    margin: 0;
+    color: white;
+}
+a:hover{
+    color: #f700ff;
+}
+a:active{
+    color: #f700ff;
+}
+.contenidoPrincipal{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    max-block-size: 1024px;
+    align-items: center;
+
+}
+p{
+    font-family: "Candara Light", serif;
+    font-size: large;
+    color: black;
+}
+.articuloPrincipal{
+    display: inline-block;
+    padding-left: 29em;
+    padding-right: 29em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: large;
+    text-align: justify;
+    justify-items: center;
+    justify-content: center;
+}
+table{
+    align-content: center;
+    font-family: "Candara Light", serif;
+    font-size: large;
+    color: black;
+    padding: 1em;
+}
+.negrilla{
+    font-weight: bold;
+}
+.colorFondoLi{
+    background: cornflowerblue;
+    margin: 0;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 20%;
+    padding-left: 1em;
+}

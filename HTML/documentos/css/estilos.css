@@ -31,13 +31,20 @@ li{
 }
 .enlacesLetraBlanca{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    font-family: "Candara Light", serif;
 }
 header{
     text-align: center;
-    padding: 8em;
+    padding: 5em;
     background:url(../img/Fondo.jpeg);
     font-family: "Candara Light", serif;
+}
+header>p{
+    font-family: "Candara Light", serif;
+    font-size: large;
+    margin: 0;
+    color: white;
 }
 body{
     margin: 0;
@@ -49,8 +56,7 @@ h1{
     margin: 0;
 }
 .pEspecial{
-    margin: 0;
-    color: white;
+
 }
 a:hover{
     color: #f700ff;
@@ -64,23 +70,13 @@ a:active{
     text-align: center;
     max-block-size: 1024px;
     align-items: center;
+    width: 1024px;
 
 }
 p{
     font-family: "Candara Light", serif;
     font-size: large;
     color: black;
-}
-.articuloPrincipal{
-    display: inline-block;
-    padding-left: 29em;
-    padding-right: 29em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: large;
-    text-align: justify;
-    justify-items: center;
-    justify-content: center;
 }
 table{
     align-content: center;
@@ -91,12 +87,189 @@ table{
 }
 .negrilla{
     font-weight: bold;
+    cursor: pointer;
 }
 .colorFondoLi{
-    background: cornflowerblue;
+    background: #5685d9;
     margin: 0;
     border-style: solid;
     border-color: cornflowerblue;
     border-radius: 20%;
     padding-left: 1em;
+}
+
+.enlaceTemas {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    background: #5685d9;
+    border-color: #5685d9;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    cursor: pointer;
+}
+
+.doscolumnas {
+    column-count: 2;
+    padding-left: 13em;
+    display: inline-flex;
+    margin: 0;
+}
+.div1{
+    font-size: large;
+    text-align: justify;
+    justify-items: center;
+    justify-content: center;
+    width: 75%;
+    padding-right: 1em;
+}
+.div2{
+    background: #232120;
+    width: 25%;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+.contenido{
+    padding-left: 13em;
+    display: inline-block;
+    text-align: justify;
+}
+.liTemas{
+    display: block;
+    padding-top: 2em;
+    font-family: "Candara Light", serif;
+    font-size: 15px;
+}
+main{
+    margin: 0;
+}
+.redes{
+    text-align: center;
+}
+.tema1 p{
+    font-family: "Candara Light", serif;
+    font-size: large;
+    margin: 0;
+    color: #053959;
+}
+
+.tema2 header p{
+    color: white;
+}
+.tema3 header p{
+    color: #524b4b;
+}
+
+.tema1 header img{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.tema2 header img{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.tema3 header img{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+*.tema1 h1{
+    color: #053959;
+}
+*.tema3 h1{
+    color: #151313;
+}
+
+.tema1 header{
+    background:url(../img/Fondo1.jpg);
+}
+*.tema2 h1{
+    color: #ffffff;
+}
+
+.tema2 header{
+    background: url(../img/Fondo2.jpg);
+
+}
+.tema3 header{
+    background: url(../img/Fondo3.jpg);
+}
+.tema1 nav{
+    text-align: center;
+    background: #0d4f6e;
+    border-color: dimgrey;
+    padding: 0.8em;
+    font-family: "Candara Light", serif;
+    font-size: 15px;
+}
+
+.tema2 nav{
+    text-align: center;
+    background: #0D0B23;
+    border-color: dimgrey;
+    padding: 0.8em;
+    font-family: "Candara Light", serif;
+    font-size: 15px;
+}
+
+.tema1 .div2 {
+    background: #0d4f6e;
+}
+.tema2 .div2 {
+    background: #0D0B23;
+}
+.tema1 .enlaceTemas {
+    color: #0d8dc9;
+    background: #ffffff;
+    border-color: #524b4b;
+    font-weight: bold;
+}
+
+.tema2 .enlaceTemas{
+    color: #0D0B23;
+    font-weight: bold;
+    background: #ffffff;
+    border-color: #820e85;
+}
+*.tema1 a:hover{
+    color: #070000;
+}
+*.tema2 a:hover{
+    color: #820e85;
+}
+* .tema1 a:active {
+    color: #f700ff;
+}
+
+.tema1 section div p{
+    padding: 1em;
+}
+
+.divalineadoiz{
+    text-align: left;
+    display: inline-block;
+    child-align: left;
+}
+
+.tema3 .enlaceTemas {
+    color: #ffffff;
+    background: #74BED7;
+    border-color: #0d4f6e;
 }

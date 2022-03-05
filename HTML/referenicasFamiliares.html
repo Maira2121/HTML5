@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Referencias familiares</title>
     <link rel="stylesheet" href="documentos/css/estilos.css">
+    <script src="documentos/js/js.js"></script>
 </head>
 <body>
 <div class="contenidoPrincipal">
@@ -15,83 +16,83 @@
     </header>
     <nav>
         <section>
-                <ul >
-                    <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
-                    <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
-                    <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
-                    <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
-                    <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
-                    <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
-                    <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar curriculum</a></li>
-                </ul>
+            <ul>
+                <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
+                <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
+                <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
+                <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
+                <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias
+                    familiares</a></li>
+                <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
+                <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar
+                    curriculum</a></li>
+            </ul>
         </section>
     </nav>
     <main>
         <section>
-            <article class="articuloPrincipal">
-                <table>
-                    <tbody>
-                    <tr>
-                        <td class="negrilla" colspan="2">Lesly Bastidas Gómez</td>
-                    </tr>
-                    <tr>
-                        <td>Parentesco:</td>
-                        <td>Hermana</td>
-                    </tr>
-                    <tr>
-                        <td>Empresa:</td>
-                        <td>Inser</td>
-                    </tr>
-                    <tr>
-                        <td>Teléfono:</td>
-                        <td>313 7689766</td>
-                    </tr>
-                    <tr>
-                        <td>Ciudad:</td>
-                        <td>Barranquilla - Atlántico</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <br>
-                <table>
-                    <tbody>
-                    <tr>
-                        <td class="negrilla" colspan="2">Aliz Marina Gómez</td>
-                    </tr>
-                    <tr>
-                        <td>Cargo:</td>
-                        <td>Ama de casa</td>
-                    </tr>
-                    <tr>
-                        <td>Teléfono:</td>
-                        <td>321 688 7160</td>
-                    </tr>
-                    <tr>
-                        <td>Ciudad:</td>
-                        <td>Mompox - Bolívar</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <br>
-                <table>
-                    <tbody>
-                    <tr>
-                        <td class="negrilla" colspan="2">Hernando Bastidas Meneses</td>
-                    </tr>
-                    <tr>
-                        <td>Cargo:</td>
-                        <td>Militar</td>
-                    </tr>
-                    <tr>
-                        <td>Teléfono:</td>
-                        <td>3216887160</td>
-                    </tr>
-                    <tr>
-                        <td>Ciudad:</td>
-                        <td>Mompox - Bolívar</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <article class="contenido">
+                <p class="negrilla" onclick="ocultar('rf1')">Lesly Bastidas Gómez</p>
+                <div id="rf1">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Parentesco:</td>
+                            <td>Hermana</td>
+                        </tr>
+                        <tr>
+                            <td>Empresa:</td>
+                            <td>Inser</td>
+                        </tr>
+                        <tr>
+                            <td>Teléfono:</td>
+                            <td>313 7689766</td>
+                        </tr>
+                        <tr>
+                            <td>Ciudad:</td>
+                            <td>Barranquilla - Atlántico</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="negrilla" onclick="ocultar('rf2')">Aliz Marina Gómez</p>
+                <div id="rf2">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Cargo:</td>
+                            <td>Ama de casa</td>
+                        </tr>
+                        <tr>
+                            <td>Teléfono:</td>
+                            <td>321 688 7160</td>
+                        </tr>
+                        <tr>
+                            <td>Ciudad:</td>
+                            <td>Mompox - Bolívar</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="negrilla" onclick="ocultar('rf3')">Hernando Bastidas Meneses</p>
+                <div id="rf3">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Cargo:</td>
+                            <td>Militar</td>
+                        </tr>
+                        <tr>
+                            <td>Teléfono:</td>
+                            <td>3216887160</td>
+                        </tr>
+                        <tr>
+                            <td>Ciudad:</td>
+                            <td>Mompox - Bolívar</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </article>
         </section>
     </main>

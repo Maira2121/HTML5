@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="documentos/css/estilos.css">
+    <script src="documentos/js/js.js"></script>
     <title>Referenias personales</title>
 </head>
 <body>
@@ -15,50 +16,52 @@
     </header>
     <nav>
         <section>
-                <ul>
-                    <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
-                    <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
-                    <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
-                    <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
-                    <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
-                    <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
-                    <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar curriculum</a></li>
-                </ul>
+            <ul>
+                <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
+                <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
+                <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
+                <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias
+                    personales</a></li>
+                <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
+                <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
+                <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar
+                    curriculum</a></li>
+            </ul>
             </b>
         </section>
     </nav>
     <main>
         <section>
-            <article class="articuloPrincipal">
-                <table>
-                    <tbody>
-                    <tr>
-                        <td class="negrilla" colspan="2">Raúl Martelo Gómez</td>
-                    </tr>
-                    <tr>
-                        <td>Cargo:</td>
-                        <td>Docente de planta</td>
-                    </tr>
-                    <tr>
-                        <td>Empresa:</td>
-                        <td>Universidad de Cartagena</td>
-                    </tr>
-                    <tr>
-                        <td>Teléfono:</td>
-                        <td>310 6359729</td>
-                    </tr>
-                    <tr>
-                        <td>Ciudad:</td>
-                        <td>Cartagena – Bolívar</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <br>
-                <table>
-                    <tbody>
+            <article class="contenido">
+                <p class="negrilla" onclick="ocultar('crp')">Raúl Martelo Gómez</p>
+                <div id="crp">
+                    <table>
+                        <tbody>
                         <tr>
-                            <td class="negrilla" colspan="2">Luis Carlos Tovar Garrido</td>
+                            <td>Cargo:</td>
+                            <td>Docente de planta</td>
                         </tr>
+                        <tr>
+                            <td>Empresa:</td>
+                            <td>Universidad de Cartagena</td>
+                        </tr>
+                        <tr>
+                            <td>Teléfono:</td>
+                            <td>310 6359729</td>
+                        </tr>
+                        <tr>
+                            <td>Ciudad:</td>
+                            <td>Cartagena – Bolívar</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <p class="negrilla" onclick="ocultar('crp2')">Luis Carlos Tovar Garrido</p>
+                <div id="crp2">
+                    <table>
+                        <tbody>
                         <tr>
                             <td>Cargo:</td>
                             <td>Docente de planta</td>
@@ -75,14 +78,14 @@
                             <td>Ciudad:</td>
                             <td>Cartagena – Bolívar</td>
                         </tr>
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
                 <br>
+                <p class="negrilla" onclick="ocultar('crp3')">Yury Pérez Herazo</p>
+                <div id="crp3">
                 <table>
                     <tbody>
-                    <tr>
-                        <td class="negrilla" colspan="2">Yury Pérez Herazo</td>
-                    </tr>
                     <tr>
                         <td>Cargo:</td>
                         <td>Ingeniero de sistemas</td>
@@ -101,6 +104,7 @@
                     </tr>
                     </tbody>
                 </table>
+                </div>
             </article>
         </section>
     </main>

@@ -1,79 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Estudios realizados</title>
-        <link rel="stylesheet" href="documentos/css/estilos.css">
-    </head>
-    <body>
-        <header>
-            <img class="imagenredonda" src="documentos/img/estudios.jpg" alt="">
-            <h1>Maira Bastidas Gómez</h1>
-            <p class="pEspecial">Estudios realizados</p>
-        </header>
-        <nav>
-            <section>
-                <ul>
-                        <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
-                        <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
-                        <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
-                        <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
-                        <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
-                        <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
-                        <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar curriculum</a></li>
-                    </ul>
-            </section>
-        </nav>
-        <main>
-            <section >
-                <article class="articuloPrincipal">
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td class="negrilla" colspan="2">Estudios realizados</td>
-                        </tr>
-                        <tr>
-                            <td class="negrilla">Universitarios:</td>
-                            <td>Ingeniería de sistemas,
-                                Universidad de Cartagena
-                                2020
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="negrilla">Estudios Técnicos:</td>
-                            <td>Técnico profesional en sistemas,
-                                Fundacion Tecnologia Antonio de Arevalo (TECNAR)
-                                Cartagena – Bolivar
-                                2005
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="negrilla">Congresos:</td>
-                            <td>Congreso Internacional de Educación, Tecnología y Ciencia CIETyC.
-                                Universidad de la Guajira
-                                Rioacha
-                            2017-04-26.</td>
-                        <tr>
-                            <td></td>
-                            <td>II Encuentro de Ciencia, Tecnología e Innovación
-                                SENA
-                                San Andrés Islas
-                                2018-08-31.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>VI Congreso Internacional de Energías renovables
-                                SENA
-                                Rioacha
-                                2019-11-15
-                            </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-            </section>
-        </main>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estudios realizados</title>
+    <link rel="stylesheet" href="documentos/css/estilos.css">
+    <script src="documentos/js/js.js"></script>
+</head>
+<body>
+<header>
+    <img class="imagenredonda" src="documentos/img/estudios.jpg" alt="">
+    <h1>Maira Bastidas Gómez</h1>
+    <p class="pEspecial">Estudios realizados</p>
+</header>
+<nav>
+    <section>
+        <ul>
+            <li><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
+            <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
+            <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
+            <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
+            <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
+            <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios
+                realizados</a></li>
+            <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar
+                curriculum</a></li>
+        </ul>
+    </section>
+</nav>
+<main>
+    <section>
+        <article class="contenido">
+            <p class="negrilla" onclick="ocultar('er1')"> Universitarios </p>
+            <div id="er1">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>Universidad de Cartagena:</td>
+                        <td>Ingeniería de sistemas
+                            2020
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="negrilla" onclick="ocultar('er2')">Estudios Técnicos:</p>
+            <div id="er2">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>Técnico profesional en sistemas,
+                            Fundacion Tecnologia Antonio de Arevalo (TECNAR)
+                            Cartagena – Bolivar
+                            2005
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="negrilla" onclick="ocultar('er3')">Congresos</p>
+            <div id="er3">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>Universidad de la Guajira</td>
+                        <td>Congreso Internacional de Educación, Tecnología y Ciencia CIETyC.
+                            Rioacha
+                            2017-04-26.
+                        </td>
+                    <tr>
+                        <td>SENA</td>
+                        <td>II Encuentro de Ciencia, Tecnología e Innovación
+                            San Andrés Islas
+                            2018-08-31.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SENA</td>
+                        <td>VI Congreso Internacional de Energías renovables
+                            Rioacha
+                            2019-11-15
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+</main>
+</body>
 </html>

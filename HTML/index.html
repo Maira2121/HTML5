@@ -5,44 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hoja de vida</title>
     <link rel="stylesheet" href="documentos/css/estilos.css">
+    <script src="documentos/js/js.js"></script>
 </head>
 <body>
-    <div class="contenidoPrincipal">
-        <header>
-            <img class="fotoCuadrada" src="documentos/img/foto.jpg" alt=""/>
-            <h1>Maira Bastidas Gómez</h1>
-            <p class="pEspecial">Desarrolladora full stack</p>
-        </header>
-        <nav>
-            <ul>
-                <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
-                <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
-                <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
-                <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
-                <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
-                <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
-                <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar curriculum</a></li>
-            </ul>
+<div id="miContenido" class="contenidoPrincipal">
+    <header>
+        <img class="fotoCuadrada" src="documentos/img/foto.jpg" alt=""/>
+        <h1>Maira Bastidas Gómez</h1>
+        <p>Desarolladora full stack</p>
+    </header>
+    <nav>
+        <ul>
+            <li class="colorFondoLi"><a class="enlacesLetraBlanca" href="index.html">Inicio</a></li>
+            <li><a class="enlacesLetraBlanca" href="informacionPrincipal.html">Información pincipal</a></li>
+            <li><a class="enlacesLetraBlanca" href="experienciaLaboral.html">Experiencia laboral</a></li>
+            <li><a class="enlacesLetraBlanca" href="referenciasPersonales.html">Referencias personales</a></li>
+            <li><a class="enlacesLetraBlanca" href="referenicasFamiliares.html">Referencias familiares</a></li>
+            <li><a class="enlacesLetraBlanca" href="estudiosRealizados.html">Estudios realizados</a></li>
+            <li><a class="enlacesLetraBlanca" href="documentos/HV-MairaBastidas.pdf" target="_blank">Descargar
+                curriculum</a></li>
+        </ul>
 
-        </nav>
-        <main>
-            <section>
-                <article class="articuloPrincipal">
-                    <p>Soy una persona proactiva, con una formación integral, conocimientos en diseño y desarrollo de aplicaciones web,
-                        abierta a nuevos desafíos, adaptable a nuevos entornos, considero la innovación como fuente de desarrollo,
-                        lo cual me ha permitido ser parte de procesos de investigación. He participado en varios eventos de investigación de carácter nacional e
-                        internacional y estoy convencida que esta experiencia será de gran ayuda para la organización en la que aporte mis conocimientos laboralmente.</p>
-                </article>
-                <article>
-                    <p >Mis redes sociales </p>
-                    <a  href="https://www.facebook.com/mbasgo"><img src="documentos/iconos/Facebook.png" alt=""/></a>
+    </nav>
+    <main>
+        <section class="doscolumnas">
+            <div class="div1">
+                <p>Soy una persona proactiva, con una formación integral, conocimientos en diseño y desarrollo
+                    de
+                    aplicaciones web,
+                    abierta a nuevos desafíos, adaptable a nuevos entornos, considero la innovación como fuente
+                    de
+                    desarrollo,
+                    lo cual me ha permitido ser parte de procesos de investigación. He participado en varios
+                    eventos
+                    de investigación de carácter nacional e
+                    internacional y estoy convencida que esta experiencia será de gran ayuda para la
+                    organización en
+                    la que aporte mis conocimientos laboralmente.</p>
+                <div class="redes">
+                    <p>Mis redes sociales </p>
+                    <a href="https://www.facebook.com/mbasgo"><img src="documentos/iconos/Facebook.png" alt=""/></a>
                     <a href="https://github.com/maira-bastidas"><img src="documentos/iconos/Git.png" alt=""/></a>
-                    <a href="https://www.instagram.com/May_basgo/?fbclid=IwAR3R3N0agQ-Qw3dBPnLKWwgjE4TMRslyTIBs-UGfS3yH9B8VUsi3oLhmnH4"><img src="documentos/iconos/Instagram.png" alt=""/></a>
-                </article>
-            </section>
-        </main>
-        <footer>
-        </footer>
-    </div>
+                    <a href="https://www.instagram.com/May_basgo/?fbclid=IwAR3R3N0agQ-Qw3dBPnLKWwgjE4TMRslyTIBs-UGfS3yH9B8VUsi3oLhmnH4"><img
+                            src="documentos/iconos/Instagram.png" alt=""/></a>
+                </div>
+            </div>
+            <div id="temasId" class="div2">
+                <span class="enlacesLetraBlanca">Temas </span>
+                <ul>
+                    <li class="liTemas"><a class="enlaceTemas" onclick="tema('miContenido','tema1')">Aplicar tema 1</a></li>
+                    <li class="liTemas"><a class="enlaceTemas" onclick="tema('miContenido', 'tema2')">Aplicar tema 2</a></li>
+                    <li class="liTemas"><a class="enlaceTemas" onclick="tema('miContenido', 'tema3')">Aplicar tema 3</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</div>
 </body>
 </html>

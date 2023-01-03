@@ -1,2 +1,2 @@
-# taller_HTML5
-Cantera 1 taller HTML5
+# HTML5
+Hoja de vida en HTML5
